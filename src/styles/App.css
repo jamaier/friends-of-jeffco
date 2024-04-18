@@ -4,37 +4,6 @@
   flex-direction: column;
 }
 
-/* @media (max-width: 768px) {
-  .districts-table, thead, tbody, th, td, tr {
-    display: block;
-  } */
-
-  /* .districts-table th {
-    display: none; 
-  } */
-
-  /* .districts-table td {
-    position: relative;
-    padding-left: 50%;
-    text-align: left;
-    white-space: normal;
-    display: block;
-  } */
-
-  /* .districts-table td:before {
-    content: attr(data-label);
-    position: absolute;
-    left: 10px;
-    width: 45%;
-    padding-right: 10px;
-    white-space: nowrap;
-    text-align: left;
-    font-weight: bold;
-  }
-} */
-
-
-
 .navigation {
   display: flex;
   min-width: none;
@@ -68,39 +37,25 @@
  margin: auto;
 }
 
-/* .Bond-provisions {
-  display: flex;
-  justify-content: space-between;
-} */
-
-/* .bp-left,
-.bp-right,
-.bp-center {
-  padding: 5px;
-} */
-
-
-
-/* .districts-table {
-  width: 100%;
-  border-collapse: collapse;
-} */
-
-/* .districts-table th, .districts-table td {
-  border: 1px solid black;
-  padding: 8px;
-  text-align: left;
-} */
-
-/* .districts-table thead th {
-  background-color: #f2f2f2;
-} */
-
 .footer {
   background-color: #004376;
   color: white;
   padding: 1rem;
   text-align: center;
+  margin: 0;
+  h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.25rem;
+    margin: 0.25rem;
+  }
+  a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 480px) {
@@ -121,14 +76,6 @@
     padding-bottom: 1em;
   } 
 
-  /* .App-navbar {
-    font-size: 8px;
-  } */
-
-  /* .navigation {
-    flex-direction: column;
-  } */
-
   .nav-item {
     margin-bottom: 10px;
     margin-right: 0;
@@ -138,34 +85,9 @@
     font-size: 1rem;
     padding: 0.5rem; 
   } 
-
-  /* .Bond-provisions {
-    flex-direction: column;
-  } */
-
-  /* .bp-left,
-  .bp-center,
-  .bp-right {
-    padding: 0.5rem;
-  } */
-
-
-  /* .districts-table {
-    font-size: 8px;
-  } */
-
-  /* .table-container {
-    margin: 0 1rem; 
-  } */
-  
-  /* .districts-table {
-    overflow-x: auto;
-    width: 100%;
-    min-width: 600px; 
-  } */
   
 
   .footer {
-    padding: 0.5rem;
+    padding: 1rem;
   }
 }

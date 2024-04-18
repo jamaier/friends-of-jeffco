@@ -142,6 +142,9 @@
     "voteInfo": "The Jefferson County Fire & EMS Bond Request will appear on the May 21, 2024 ballot as Measure #16-109"
   },
   "footer": {
-    "body": "Paid for in part by the Friends of Jefferson County Fire & EMS."
+    "body": "For more information about what Jefferson County Fire & EMS does, please visit: ",
+    "link": "https://www.jcfr1.org/",
+    "linkText": "Jefferson County Fire & EMS website https://www.jcfr1.org/",
+    "copyright": "© 2024 Friends of Jefferson County Fire & EMS"
   }
 }

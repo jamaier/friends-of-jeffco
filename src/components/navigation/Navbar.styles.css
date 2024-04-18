@@ -50,12 +50,19 @@
   }
 
   .nav-list.open {
-    display: flex; /* Display flex to allow column direction */
+    display: flex;
   }
 
   .nav-item {
-    text-align: center; /* Center text for mobile */
-    width: 100%; /* Full width for each item */
-    border-top: 1px solid #ccc; /* Divider between items */
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 18px;
+    border-top: 1px solid #ccc;
+  }
+
+  .nav-item a {
+    display: block;
+    padding: 0;
   }
 }

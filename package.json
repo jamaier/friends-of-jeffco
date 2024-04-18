@@ -1,5 +1,6 @@
 {
-  "name": "friendsofjcfe",
+  "name": "friends-of-jefferson-county-fire-and-ems",
+  "homepage": "https://friendsofjeffersoncountyfireandems.org/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
