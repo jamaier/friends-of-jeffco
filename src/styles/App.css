@@ -1,0 +1,171 @@
+.App {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+/* @media (max-width: 768px) {
+  .districts-table, thead, tbody, th, td, tr {
+    display: block;
+  } */
+
+  /* .districts-table th {
+    display: none; 
+  } */
+
+  /* .districts-table td {
+    position: relative;
+    padding-left: 50%;
+    text-align: left;
+    white-space: normal;
+    display: block;
+  } */
+
+  /* .districts-table td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+  }
+} */
+
+
+
+.navigation {
+  display: flex;
+  min-width: none;
+  padding: 1em;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+  text-decoration: underline;
+}
+
+.App-body {
+ max-width: 60vw;
+ min-width: 480px;
+ margin: auto;
+}
+
+/* .Bond-provisions {
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .bp-left,
+.bp-right,
+.bp-center {
+  padding: 5px;
+} */
+
+
+
+/* .districts-table {
+  width: 100%;
+  border-collapse: collapse;
+} */
+
+/* .districts-table th, .districts-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+} */
+
+/* .districts-table thead th {
+  background-color: #f2f2f2;
+} */
+
+.footer {
+  background-color: #004376;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .App {
+    display: flex;
+    flex: 1;
+  }
+
+  .App-body {
+    max-width: 100%; 
+    min-width: auto;
+    padding: 0 1rem;
+  }
+
+
+  .App-logo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  } 
+
+  /* .App-navbar {
+    font-size: 8px;
+  } */
+
+  /* .navigation {
+    flex-direction: column;
+  } */
+
+  .nav-item {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .nav-item a {
+    font-size: 1rem;
+    padding: 0.5rem; 
+  } 
+
+  /* .Bond-provisions {
+    flex-direction: column;
+  } */
+
+  /* .bp-left,
+  .bp-center,
+  .bp-right {
+    padding: 0.5rem;
+  } */
+
+
+  /* .districts-table {
+    font-size: 8px;
+  } */
+
+  /* .table-container {
+    margin: 0 1rem; 
+  } */
+  
+  /* .districts-table {
+    overflow-x: auto;
+    width: 100%;
+    min-width: 600px; 
+  } */
+  
+
+  .footer {
+    padding: 0.5rem;
+  }
+}

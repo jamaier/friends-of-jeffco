@@ -1,0 +1,147 @@
+{
+  "header": {
+    "title": "Jefferson Country Fire & EMS 2024 Bond Request"
+  },
+  "whoWeAre": {
+    "title": "Friends of Jefferson County Fire & EMS are:",
+    "body": "'Members of the Jefferson County Community partnering together to pass a bond measure to fund building and equipment upgrades needed to meet the current and future needs of fire and emergency medical services in our community.'"
+  },
+  "reasons": {
+    "title": "The Reasons:",
+    "items": [
+      "Equipment & buildings need updated to meet the needs of the growing community and the organization’s diverse workforce",
+      "Current station was built in 1989 as a volunteer station and was not designed to handle 24/7 operations as we now provide",
+      "Dorm space and adequate restrooms for male and female personnel are needed",
+      "Upgraded facilities needed in Culver to allow for full-time staff at the Culver station 24/7 in order to better serve that area",
+      "First responding engines need an upgrade...department has not bought a new structural fire engine for 24yrs"
+    ]
+  },
+  "about": {
+    "title": "About The Bond:",
+    "items": [
+      "Total Amount: $14.5 Million / Term Length: 15years / Estimated Avg Tax Rate Increase: $.83 per $1000 of taxable assessed value",
+      "Bond split into 2 series...the first 7 million will be used for immediate upgrades and the second will be taken after 4 years for the future of our growing community",
+      "Splitting the bond in two series takes advantage of our community’s expected growth and lowers the amount of tax dollars paid by our citizens over the lifetime of the bond",
+      "Helps fulfill capital funding needs for the next 15yrs"
+    ],
+    "lastBond": "Jefferson County Fire & EMS' last bond was in 1998"
+  },
+  "useOfFunds": {
+    "title": "What The Bond Will Provide",
+    "provisions": [
+      {
+        "category": "Fire Stations",
+        "items": [
+          "Madras & Culver Station Remodel / Expansion",
+          "Seismic Upgrades",
+          "Storage Logistics Building",
+          "Roofs & HVAC Systems"
+        ]
+      },
+      {
+        "category": "Fire Trucks",
+        "items": [
+          "Structure Fire Engines (2)",
+          "Brush Fire Trucks (2)",
+          "Ambulances (2)",
+          "Specialized Rescue Truck",
+          "Aircraft Rescue & Fire Fighting Vehicle (ARFF)"
+        ]
+      },
+      {
+        "category": "Safety & Training",
+        "items": [
+          "Fire Training Tower",
+          "Training Ground Improvements",
+          "Firefighter Self Contained Breathing Equipment",
+          "Firefighter Turnouts (20)"
+        ]
+      }
+    ]
+  },
+  "districts": {
+    "serviceOverview": "Jefferson County Fire & EMS has a Permanent Tax Rate of $1.18. This is significantly less than departments of comparable size in Oregon. This also does not take into account any bonds these other organizations may have in addition to their permanent rate. See the following chart for comparables:",
+    "title": "Permanent Tax Rates of Comparable Districts",
+    "data": [
+      {
+        "id": 1,
+        "name": "Jefferson County Fire & EMS",
+        "taxRate": "$1.18",
+        "population": 25068,
+        "area": "1104 sq mi",
+        "callVolume": 3499
+      },
+      {
+        "id": 2,
+        "name": "Crook County Fire & Rescue",
+        "taxRate": "$1.59",
+        "population": 23000,
+        "area": "3000 sq mi",
+        "callVolume": 3400
+      },
+      {
+        "id": 3,
+        "name": "Douglas County #2",
+        "taxRate": "$3.16",
+        "population": 21932,
+        "area": "2300 sq mi",
+        "callVolume": 0
+      },
+      {
+        "id": 4,
+        "name": "Klamath Co. Fire District # 1",
+        "taxRate": "$2.88",
+        "population": 22420,
+        "area": "492 sq mi",
+        "callVolume": 6817
+      },
+      {
+        "id": 5,
+        "name": "LaPine RFPD",
+        "taxRate": "$1.54",
+        "population": 22000,
+        "area": "1000 sq mi",
+        "callVolume": 0
+      },
+      {
+        "id": 6,
+        "name": "Lebanon Fire District",
+        "taxRate": "$2.26",
+        "population": 30000,
+        "area": "134 sq mi",
+        "callVolume": 6362
+      },
+      {
+        "id": 7,
+        "name": "Mid-Columbia Fire & Rescue",
+        "taxRate": "$2.10",
+        "population": 21004,
+        "area": "200 sq mi",
+        "callVolume": 3900
+      },
+      {
+        "id": 8,
+        "name": "Polk County",
+        "taxRate": "$1.50",
+        "population": 28000,
+        "area": "204 sq mi",
+        "callVolume": 3611
+      },
+      {
+        "id": 9,
+        "name": "Sweet Home",
+        "taxRate": "$1.50",
+        "population": 19000,
+        "area": "1000 sq mi",
+        "callVolume": 3291
+      }
+    ]
+  },
+  "vote": {
+    "body": "Jefferson County Fire & EMS provides fire suppression, emergency medical transportation and assistance, along with fire prevention, public education, and a thriving student program. In April of 2022, JC Fire & EMS began providing 24/7 staffing at the Madras station resulting in decreased response times, and improved protection and emergency services to our community. This bond will be instrumental in maintaining and improving the essential services this organization provides our community, as well as protecting the health and safety of our first responders.",
+    "voteInfo": "The Jefferson County Fire & EMS Bond Request will appear on the May 21, 2024 ballot as Measure #16-109"
+  },
+  "footer": {
+    "body": "Paid for in part by the Friends of Jefferson County Fire & EMS."
+  }
+}

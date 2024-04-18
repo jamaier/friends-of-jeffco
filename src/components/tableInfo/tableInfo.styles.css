@@ -1,0 +1,63 @@
+.service-overview {
+  border: #00508c 4px solid;
+  background-color: #a02936;
+  h3 {
+    margin: 1rem;
+    color: #fff;
+  }
+}
+
+.table-container {
+    overflow-x: auto;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .districts-table {
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+  }
+  
+  .districts-table th, .districts-table td {
+    padding: 6px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .districts-table, .districts-table thead, .districts-table tbody, .districts-table th, .districts-table td, .districts-table tr {
+      display: block;
+      width: 100%;
+    }
+  
+    .districts-table thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+  
+    .districts-table tr { 
+      margin-bottom: 15px;
+    }
+  
+    .districts-table td {
+      position: relative;
+      padding-left: 25%;
+      text-align: right;
+      border-bottom: 0;
+    }
+  
+    .districts-table td:before {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      text-align: left;
+      font-weight: bold;
+      content: attr(data-label);
+    }
+  }
+  

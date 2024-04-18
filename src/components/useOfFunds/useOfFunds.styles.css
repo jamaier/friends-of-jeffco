@@ -1,0 +1,44 @@
+.funds-container {
+  margin: 0;
+  h1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: #00508c;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+}
+
+.Bond-provisions {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0; */
+}
+
+.bp-left,
+.bp-right,
+.bp-center {
+  margin: 0;
+  padding: 5px;
+  h4 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: #a02936;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #181315;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 480px) {
+  .Bond-provisions {
+    flex-direction: column;
+  }
+  .bp-left,
+  .bp-center,
+  .bp-right {
+    padding: 0.5rem;
+  }
+}

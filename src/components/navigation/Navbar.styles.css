@@ -1,0 +1,61 @@
+/* NavBar.styles.css */
+
+.navigation {
+  background: #004376;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  color: #fff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.nav-toggle {
+  display: none;
+  background: #a02936;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+    border-radius: 5px;
+  }
+
+  .nav-list {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background: #a02936;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .nav-list.open {
+    display: flex; /* Display flex to allow column direction */
+  }
+
+  .nav-item {
+    text-align: center; /* Center text for mobile */
+    width: 100%; /* Full width for each item */
+    border-top: 1px solid #ccc; /* Divider between items */
+  }
+}
